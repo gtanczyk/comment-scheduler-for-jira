@@ -1,0 +1,32 @@
+modules:
+  jira:issuePanel:
+    - key: scheduler-panel
+      resource: main
+      resolver:
+        function: resolver
+      title: Comment Scheduler
+      viewportSize: medium
+      tooltip: Schedule a comment
+      icon: https://developer.atlassian.com/platform/forge/images/issue-panel-icon.svg
+  function:
+    - key: resolver
+      handler: index.handler
+    - key: trigger
+      handler: trigger.handler
+  webtrigger:
+    - key: temporary-development-webtrigger
+      function: trigger
+  scheduledTrigger:
+    - key: scheduled-trigger
+      function: trigger
+      interval: hour
+resources:
+  - key: main
+    path: frontend/build
+permissions:
+  scopes:
+    - storage:app
+    - write:jira-work
+app:
+  id: ari:cloud:ecosystem::app/a7441f25-daa3-43d3-9478-d7ccc15863b7
+  name: Comment Scheduler

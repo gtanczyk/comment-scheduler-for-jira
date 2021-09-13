@@ -1,0 +1,20 @@
+{
+  "name": "comment-scheduler-for-jira",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend && npm run build",
+    "postinstall": "cd frontend && npm install"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-plugin-react-hooks": "^2.1.2"
+  },
+  "dependencies": {
+    "@forge/api": "^0.5.5",
+    "@forge/cli": "^1.6.1",
+    "@forge/resolver": "0.1.0-next.2"
+  }
+}

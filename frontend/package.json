@@ -1,0 +1,50 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@atlaskit/button": "^15.1.2",
+    "@atlaskit/checkbox": "^11.0.7",
+    "@atlaskit/css-reset": "^6.0.1",
+    "@atlaskit/icon": "^21.1.4",
+    "@atlaskit/lozenge": "^10.0.6",
+    "@atlaskit/spinner": "^15.0.5",
+    "@atlaskit/textfield": "^4.0.9",
+    "@atlaskit/theme": "^11.0.1",
+    "@forge/bridge": "0.1.0-next.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@atlaskit/date": "^0.8.8",
+    "@atlaskit/datetime-picker": "^11.0.1",
+    "@atlaskit/editor-core": "^149.0.1",
+    "@atlaskit/media-core": "^32.2.0",
+    "@atlaskit/progress-bar": "^0.3.8",
+    "@atlaskit/renderer": "^81.0.0",
+    "moment": "^2.29.1",
+    "react-async-hook": "^3.6.2",
+    "react-intl": "^2.9.0",
+    "rxjs-compat": "^6.6.7",
+    "styled-components": "^3.4.10"
+  }
+}

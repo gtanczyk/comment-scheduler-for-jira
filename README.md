@@ -46,7 +46,6 @@ open http://localhost:3000/?mock
 ## Limitations (Atlassian Forge)
 
 - Not possible post a comment as a user
-- Panel is not resizing
 - Built-in comment box is not pluggable
 - some other Forge limitations
 - Atlassian Forge does not work in JSM projects :(

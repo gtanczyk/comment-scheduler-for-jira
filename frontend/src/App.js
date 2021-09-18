@@ -24,8 +24,4 @@ export default function App() {
 const AppContainer = styled.div`
   width: 100%;
   height: 100%;
-  overflow-y: auto;
-  position: fixed;
-  left: 0;
-  top: 0;
 `;

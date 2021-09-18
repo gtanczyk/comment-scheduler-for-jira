@@ -5,7 +5,6 @@ modules:
       resolver:
         function: resolver
       title: Comment Scheduler
-      viewportSize: medium
       tooltip: Schedule a comment
       icon: https://developer.atlassian.com/platform/forge/images/issue-panel-icon.svg
   function:
